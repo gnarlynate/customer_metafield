@@ -36,27 +36,27 @@ GEM
     mime-types-data (3.2020.0512)
     minitest (5.14.1)
     multi_xml (0.6.0)
-    mustermann (1.1.1)
+    mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     openssl (2.2.0)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.3)
-    rack-protection (2.0.8.1)
+    rack (2.2.4)
+    rack-protection (2.2.3)
       rack
-    ruby2_keywords (0.0.2)
+    ruby2_keywords (0.0.5)
     shopify_api (9.1.0)
       activeresource (>= 4.1.0, < 6.0.0)
       graphql-client
       rack
-    sinatra (2.0.8.1)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
     thread_safe (0.3.6)
-    tilt (2.0.10)
+    tilt (2.0.11)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     zeitwerk (2.3.0)
@@ -65,7 +65,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
   dotenv
   httparty
   openssl
